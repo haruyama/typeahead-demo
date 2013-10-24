@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="typeaheadDemoApp">
+<head>
+<link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="lib/angular/angular.min.js"></script>
+<script src="lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controllers.js"></script>
+</head>
+<body>
+
+<alert type="'info'" >Typeahead from  <a href="http://angular-ui.github.com/bootstrap/">http://angular-ui.github.com/bootstrap/</a></alert>
+<div class='container-fluid' ng-controller="TypeaheadDemoCtrl">
+  <pre>Model: {{selected}}</pre>
+  <input type="text" ng-model="selected" typeahead="state for state in typeahead($viewValue)">
+</div>
+</body>
+</html>
