@@ -13,6 +13,5 @@ A demo of Angular-UI Bootstrap Typeahead with Ajax
 
     % npm install grunt grunt-bower-task --save-dev
 
-    % bower install
     % grunt bower:install
     % php -S 0.0.0.0:8000
