@@ -9,5 +9,5 @@ A demo of Angular-UI Bootstrap Typeahead with Ajax
 
 ## Usage
 
-% bower install
-% php -S 0.0.0.0:8000
+    % bower install
+    % php -S 0.0.0.0:8000
